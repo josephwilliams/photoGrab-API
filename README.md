@@ -1,4 +1,6 @@
-# A Nodal Application
+# PhotoGrab
+
+Database pre-seeded with five images and their image_urls and thumbnail_urls
 
 ## Running Locally
 
