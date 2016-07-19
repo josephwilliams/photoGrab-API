@@ -1,0 +1,23 @@
+{
+
+  "migration_id": 2016071902133065,
+
+  "models": {
+
+    "Photo": {
+
+      "table": "photos",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "thumbnail_url", "type": "string", "properties": {}},
+        {"name": "image_url", "type": "string", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    }
+
+  }
+
+}

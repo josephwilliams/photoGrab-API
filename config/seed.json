@@ -1,0 +1,27 @@
+{
+
+  "development": {
+    "Photo": [
+      { "id": 1,
+        "image_url": "http://static1.squarespace.com/static/547f29bfe4b0dc192ed7bdac/54aeb15ce4b018c14f34c7cb/54aeb160e4b018c14f34c7ed/1420734817363/san-franc.jpg?format=2500w",
+        "thumbnail_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR_BcGhpOaABd26qSIHvPo9zCc_1kVtxmvgI0F-sjDIKSCwxzTwVhBFsQ" },
+      { "id": 2,
+        "image_url": "http://usa.sae.edu/assets/Campuses/San-Francsico/2015/San_Francisco_city_view.jpg" ,
+        "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_5RASa22i7nRRkZWxDono9xk9OMD54IH1ddqimvGminjFYH8AkQ" },
+      { "id": 3,
+        "image_url": "https://www.crowdrise.com/media/static/SFMarathonBridge.jpg" ,
+        "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDaTphbLwkJRpuXS8QlSuF7_y1pXXfOf8DSkya2LzAMxOdD45Opg"},
+      { "id": 4,
+        "image_url": "https://www.nps.gov/yose/planyourvisit/images/dr-tunnel-view-pp-bigweb_1.jpg",
+        "thumbnail_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcScb7p621wrzwxs2KgXmRUx7EQG3YAO3AdtogZ69nuMVAZjXLMy"},
+      { "id": 5,
+        "image_url": "http://www.nationalparks.org/sites/default/files/kcfinder/images/yosemite(3).jpg",
+        "thumbnail_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQJd0XdSySLEETy3dImpeaF3aKw6HEazpwGQDB6lhERECpm17mt7w"}
+      ]
+  },
+
+  "test": {},
+
+  "production": {}
+
+}
