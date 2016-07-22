@@ -1,6 +1,6 @@
 ## PhotoGrab
 
-- Utilizes React.js on a static html page (index.html)
+- Utilizes React.js on a static html page (index.html) with CDNs for React, ReactDOM, JSXTranspiler, and JQuery/AJAX
 - Database pre-seeded with five images and their image_urls and thumbnail_urls
 - Ajax request grabs JSON object with image URLs when main component mounts
 - Simulates modal functionality using React component
