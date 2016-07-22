@@ -1,8 +1,10 @@
-# PhotoGrab
+## PhotoGrab
 
-Database pre-seeded with five images and their image_urls and thumbnail_urls
+- Database pre-seeded with five images and their image_urls and thumbnail_urls
+- Utilizes React.js on a static html page (index.html)
+- Simulates modal functionality using React
 
-## Running Locally
+#### Running Locally
 
 ```sh
 nodal s
