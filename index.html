@@ -26,7 +26,7 @@
        componentDidMount: function () {
          var self = this;
          $.ajax({
-           url: 'http://localhost:3000/photos',
+           url: 'http://localhost:3000/photos', // must be running local server
            type: 'GET',
            success: function (data) {
              var images = data.data;
@@ -53,7 +53,6 @@
        },
 
        closeModal: function () {
-         console.log("modal closing attempt")
          this.setState({ modalIsOpen: false });
        },
 
@@ -83,7 +82,7 @@
 
          return (
           <div className="modal-background" style={modalStyle} onClick={() => this.props.closeModal()}>
-             <div className="modal" style={modalStyle}>
+             <div className="modal" style={modalStyle} onClick={(e) => e.stopPropagation()}>
               <img src={this.props.imageUrl}></img>
              </div>
           </div>
